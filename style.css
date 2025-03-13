@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.wrapper a{
+    color: white;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(30, 78, 191);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-image: linear-gradient(to left, rgb(43, 203, 211), rgba(30, 78, 191, 0.796));
+    min-height: 150px;
+}
+.header h1{
+    text-align: center;
+    color: aliceblue;
+}
+.header p{
+    text-align: center;
+    color: white;
+}
+.header img{
+    display: block;
+    margin: auto;
+}
+.content {
+    background-color: antiquewhite;
+    min-height: 300px;
+    padding: 20px;
+}
+.content h2{
+    text-align: center;
+}
+.content h3{
+    text-align: center;
+}
+.content p{
+    text-align: center;
+}
+.tabela{
+    margin: auto;
+}
+.tabela, td{
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(160 160 160);
+}
+.contato{
+    text-align: center;
+}
+.contato label{
+    font-weight: bold;
+}
+.formulario{
+    background-color: rgb(223, 233, 226);
+}
+.footer {
+    background-color: rgb(12, 9, 23);
+    max-height: 150px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
